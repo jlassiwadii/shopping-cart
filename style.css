@@ -1,0 +1,121 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .bag {
+
+    border-radius: 10px;
+    width: 60%;
+  
+    display: block;
+  }
+  .item {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 0.5px gray;
+    border-bottom: solid 0.5px gray;
+    background-color: white;
+    border: solid rgb(109, 108, 108);
+    border-radius: 15px;
+  }
+  .items-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+  
+    align-items: center;
+  }
+
+.qte{
+ border : none;
+ text-align:  center;
+ width : 20px;
+ 
+
+ 
+  }
+
+  .bt{
+
+    border: none;
+    background-color: black;
+    color: white;
+    width : 40px;
+
+  }
+
+  .t-shirt{
+   font-size: 20px;
+   text-align: left;
+  }
+  .color{
+   text-align: left;
+   color: gray;
+   font-size: 12px;
+  }
+  .price-total
+    {
+    display : flex;
+    text-align: left;
+    padding-right: 10px
+    }
+  
+    .price{
+
+     text-align: left;
+     border: none;
+     width :100px;
+     font-weight: bold;
+     font-size: 20px;
+     color: gray
+
+    }
+  .add-bag{
+    background-color: white;
+    width : 60%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .total{
+    border: none;
+    font-size: 20px;
+    text-align: right;
+    
+   
+  }
+
+  .titletotal {
+    font-size: 20px;
+    text-align: center;
+    
+    
+
+  }
+
+  .title-bag{
+    border: solid rgb(83, 82, 82);
+    padding: 10px; 
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    
+    
+
+    
+  }
